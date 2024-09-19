@@ -9,7 +9,7 @@
 1. **Clone the repository**:
    ```powershell
    git clone https://github.com/Vengatesh-m/qa-test.git
-   cd QA test/Deployment
+   cd qa-test/Deployment
 
 2. **Deploy backend and frontend services**:
     kubectl apply -f backend-deployment.yaml
@@ -28,7 +28,7 @@
 
 1. Run the test script:
     ```powershell
-    cd QA test\accuknox_Assessment
+    cd qa-test\accuknox_Assessment
     python test_selenium.py
 2. Output:
     Test is passed         
