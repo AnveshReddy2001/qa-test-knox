@@ -28,7 +28,7 @@
 
 1. Run the test script:
     ```powershell
-    cd C:\Users\sudha\qa-test\accuknox_Assessment
+    cd qa-test\accuknox_Assessment
     python test_selenium.py
 2. Output:
     Test is passed         
@@ -44,7 +44,7 @@
    Push the repository to GitHub and make it public:
    ```powershell
    git init
-   git add .
+   git add *
    git commit -m "Initial commit"
-   git remote add origin 
-   git push -u origin main
+   git remote add origin https://github.com/AnveshReddy2001/qa-test-knox.git
+   git push origin master
